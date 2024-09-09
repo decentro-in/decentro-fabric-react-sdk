@@ -1,0 +1,32 @@
+{
+  "name": "decentrotech-fabric-react-sdk",
+  "version": "0.1.0",
+  "description": "React SDK for Decentro Fabric",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentro-in/decentro-fabric-react-sdk.git"
+  },
+  "keywords": [
+    "decentro",
+    "decentrotech",
+    "fabric",
+    "react",
+    "uistream",
+    "uistreams"
+  ],
+  "author": "Anuranjan Srivastava",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/decentro-in/decentro-fabric-react-sdk/issues"
+  },
+  "homepage": "https://github.com/decentro-in/decentro-fabric-react-sdk#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "react": "^18.3.1",
+    "typescript": "^5.5.4"
+  }
+}
