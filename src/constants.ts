@@ -1,0 +1,15 @@
+export enum LanguageCode {
+    ASSAMESE = "as",
+    BENGALI = "bn",
+    ENGLISH = "en",
+    GUJARATI = "gu",
+    HINDI = "hi",
+    KANNADA = "kn",
+    MALAYALAM = "ml",
+    MARATHI = "mr",
+    ODIA = "or",
+    PUNJABI = "pa",
+    TAMIL = "ta",
+    TELUGU = "te",
+    URDU = "ur",
+}

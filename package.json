@@ -1,9 +1,15 @@
 {
   "name": "decentrotech-fabric-react-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React SDK for Decentro Fabric",
-  "main": "index.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
+    "rollup": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,9 +30,21 @@
     "url": "https://github.com/decentro-in/decentro-fabric-react-sdk/issues"
   },
   "homepage": "https://github.com/decentro-in/decentro-fabric-react-sdk#readme",
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.5",
     "react": "^18.3.1",
+    "rollup": "^4.21.2",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "tslib": "^2.7.0",
     "typescript": "^5.5.4"
   }
 }

@@ -12,3 +12,6 @@ package-lock.json
 README.html
 CHANGELOG.html
 LICENSE.html
+
+# build
+dist
